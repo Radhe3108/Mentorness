@@ -1,0 +1,24 @@
+Your Topic for Reel: Distance Metrics: Explain distance metrics used in k-NN, such as Euclidean distance, Manhattan distance, and Minkowski distance. Show how distance metrics measure the similarity between data points in the feature space.
+
+
+Speech:
+
+Welcome to the world of k-Nearest Neighbors! It's a simple yet powerful machine learning algorithm used for classification and regression tasks.
+
+At its core, k-NN makes predictions based on the average of the k-nearest data points. But how do we determine k?
+
+The value of k is determined using distances. Distance metrics such as Euclidean, Manhattan, or Minkowski play a crucial role here.
+
+First of all, let's talk about Euclidean distance. It's like the straight-line distance between two points in space.
+
+Next, we have Manhattan distance. It's the sum of absolute differences between the coordinates of two points.
+
+Lastly, there's Minkowski distance, which combines both Euclidean and Manhattan distances into one flexible formula
+
+this all are the formulaes of distances.
+
+k-NN doesn't require a training phase. By using distance metrics directly on the input data, k-NN can make immediate predictions without the need for model fitting.
+
+Different distance metrics have different properties, making them more suitable for specific types of data or applications. They provide robustness against noisy data or outliers, ensuring the reliability of k-NN predictions
+
+In summary, k-NN leverages distance metrics to make accurate predictions in classification and regression tasks. Its simplicity, combined with the power of distance, makes it a valuable tool in the world of machine learning
